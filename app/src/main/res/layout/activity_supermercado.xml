@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_supermercado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oep.capacitacion.SupermercadoActivity">
+    <TextView
+        android:id="@+id/tv_nombre_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDA"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+    <TextView
+        android:id="@+id/tv_depa_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu Pais"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
